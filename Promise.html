@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Examples</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="" rel="stylesheet">
+</head>
+<body>
+    
+    <script type="text/javascript">
+    	
+    	new Promise(
+
+    		function (resolve,reject){
+    			//很耗时的异步操作
+
+    			resolve(args); //数据处理完成
+    			reject(args);//数据处理出错
+    		}
+    		).then(function A(){
+    			//成功，下一步
+
+    		},function B(){
+    			//失败，做相应处理
+    		}).catch(function(data){
+    			
+    		})
+    </script>
+</body>
+</html>
